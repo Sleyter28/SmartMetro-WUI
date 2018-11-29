@@ -1,0 +1,49 @@
+@import "src/theme/theme-variables";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800';
+
+:host {
+  display: flex;
+  flex: 1;
+  background-image: url('../../assets/bck.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  // text-transform: uppercase;
+  font-family: 'Open Sans' !important, sans-serif;
+  font-weight: 800;
+}
+
+.inline-loader {
+  display: inline-block;
+}
+
+.login-box.mat-card {
+  color: white;
+}
+
+.version {
+  margin: 0;
+}
+
+.login-container,
+.mat-form-field {
+  width: 100%;
+  color: #ffffff;
+}
+
+.login-error {
+  color: mat-color($app-warn);
+}
+
+.mat-card {
+  color: #ffffff;
+  background-color: rgba(#8f8f8f, 0.7) !important;
+}
+
+.btnGradient {
+  background: #1A2980;
+  background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+  background: linear-gradient(to right, #26D0CE, #1A2980);
+  color: white;
+}

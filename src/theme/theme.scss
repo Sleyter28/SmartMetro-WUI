@@ -1,0 +1,25 @@
+/*
+ * Global application theme.
+ * Framework overrides and customization goes here.
+ */
+
+// stylelint-disable-next-line selector-max-universal
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+}
+.login-label .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .login-label .mat-form-field-empty.mat-form-field-label{
+  font-weight: 800 !important;
+  color: white !important;
+}
+
+.login-label:hover {
+  color: white;
+}
